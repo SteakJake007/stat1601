@@ -1,0 +1,1 @@
+ggplot(CDFinal,aes(x=classRating, y=sleepTime,fill=weightChange))+geom_boxplot(fill="pink", color="purple", outlier.color="red")
